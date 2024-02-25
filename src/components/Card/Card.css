@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  .service-app{
+    text-align: center;
+  }
+
+.section .service-img{
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.section img{
+  max-width: 25%;
+}
+
+.section .rating{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F3F9FF;
+  border-radius: 0px 0px 12px 12px;
+  justify-content: space-between;
+}
+
+.section .button{
+  margin-top: auto; /* Pushes the button to the bottom */
+  background-color: #1B88F4;
+  border-radius: 12px;
+  padding: 8px 50px;
+  color: white;
+}

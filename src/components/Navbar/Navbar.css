@@ -1,0 +1,89 @@
+/* General Styles */
+nav {
+    background-color: #212731;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+}
+
+li {
+    display: inline;
+    margin-right: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #D1D6DA;
+    
+}
+
+.Search-bar {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    /* margin: 0 auto; */
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Search-bar input[type="text"] {
+    padding: 8px 30px 8px 8px; /* Adjust padding to accommodate icon */
+    border: none;
+    /* border-radius: 4px; */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .Search-bar .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust distance from the right */
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+  }
+  
+  
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    form input[type="text"] {
+        width: 80%;
+    }
+
+    form button {
+        width: 80%;
+    }
+}

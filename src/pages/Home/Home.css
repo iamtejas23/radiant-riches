@@ -1,0 +1,113 @@
+.Home-container{
+    max-width: 800px;
+    margin: 1rem auto;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    
+    background-color: #FBFCFD;
+    color: rgb(0, 0, 0);
+}
+
+.Home-container h1{
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 400;
+    color: #2C384A;
+}
+
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the horizontal rule */
+    background-color: #ebff3b; /* Set the background color */
+    margin: 20px 0; /* Set margin for spacing */
+  }
+  
+.firtline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firtline1{
+    display: flex;
+    align-items: center;
+}  
+
+.firtline1 p{
+    margin-left: 10px;
+    margin-right: 10px; 
+    font-size: 14px;
+}
+
+.firtline2{
+    display: flex;
+    align-items: center;
+}
+
+.firtline2 p{
+    font-size: 14px;
+    color: #727D87;
+}
+
+.secondline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+
+.secondline p{
+    font-size: 13px;
+    color: #4B5665;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.secondline p:hover{
+    font-size: 13px;
+    border: 2px solid #a5d3ff;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+/* hardcoded nav lines */
+.horizontal-navigation {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+  }
+
+    .horizontal-navigation-list a {
+        list-style: none;
+        font-size: 13px;
+        color: #5C6874;
+    }
+  
+  .horizontal-navigation-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .horizontal-navigation-item {
+    margin: 0 10px;
+  }
+  
+  .horizontal-navigation-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .horizontal-navigation-link:hover {
+    color: #666;
+  }
+  
+  .horizontal-navigation-item:not(:last-child)::after {
+    content: '>';
+    margin-left: 10px;
+    color: #5C6874;
+  }
+  

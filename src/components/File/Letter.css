@@ -1,0 +1,28 @@
+.letter-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .letter-section h3{
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 300px;
+  }
+
+.letter-section .button-letter{
+    padding: 0px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
